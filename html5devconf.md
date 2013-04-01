@@ -1,4 +1,4 @@
-=Day 1 Html5DevCon
+#Day 1 Html5DevCon
 
 Performance is important. For a variety of reasons. Pages are getting heavier and it affects load times (perceived and real) and we need to work with that [take slides from the presentation to cover the difference between gmail and amazon regarding perceived load speed versus windows.onload speed]
 
@@ -9,7 +9,7 @@ Even though it is a captive audience they'll still turn away from your content. 
 * http://httparchive.org/ for more statistics regarding we access worldwide
 * http://stevesouders.com/docs/html5devconf-howfast-20130401.pptx for the keynore presentation: "How fast is the web"
 
-= Modernizr
+#Modernizr
 
 Modernizr is a feature detection engine that allows both feature detection and modular development. We can create support tiers depending on the features the browsers support and then work with that tier only (we don't add features that a browser can't support and we code all the features that we need and only those we need)
 
@@ -22,7 +22,7 @@ The objective is not for all the browsers to render content the same way. But to
 
 different formats and patent wars. MP4 is encumbered and recently so it is. 
 
-== Captioning
+##Captioning
 
 Has builtin support for captioned tracks and subtitles. There are two formats (go figure): WebVTT (newer W3C recommendation and better support: Chrome, IE, Safari) and TTML (older with a TV heritage)
 
@@ -31,23 +31,23 @@ Issues with:
 * Differing support for each standard (TTML from Video/broadcast industries and Web vendors supporting WebVTT) 
 * FCC rules regarding video content previously delivered via TV (must be captioned)
 	
-==Full Screen Display
+##Full Screen Display
 
 Web video allows full screen display
 https://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html
 
-==Accessibility:
+##Accessibility:
 http://www.w3.org/WAI/PF/media-a11y-reqs/
 * type of disability
 * Alternative accommodations
 * System requirements (accessibility technological)
 	
-==Media Capture APIs
+##Media Capture APIs
 http://dev.w3.org/2009/dap/camera/
 
 2 way communication by using the camera API and a video or canvas tag to display the incoming content. 
 
-==Media Source Extensions
+##Media Source Extensions
 https://dvcs.w3.org/hg/html-media/raw-file/tip/media-source/media-source.html
 
 Developer build media stream from a series of video and audio chunks
@@ -57,20 +57,20 @@ http://www.w3.org/WAI/PF/media-a11y-reqs/
 * Time shifting
 * Video editing
 
-==Encrypted Media Extensions
+##Encrypted Media Extensions
 https://dvcs.w3.org/hg/html-media/raw-file/tip/encrypted-media/encrypted-media.html
 
 Connects CMS to content provider serving encrypted media. DRM?
 
 * How does it related to Canvas, CSS, accessibility?
 	
-==Real Time Communications
+##Real Time Communications
 http://www.webrtc.org/
 
 * What video codec? 
 * Mozilla and Chrome support the feature but not the same codecs
  
-===Client-side latency mesaurements
+###Client-side latency mesaurements
 * https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html
 * http://www.w3.org/TR/resource-timing/
 * http://www.igvita.com/2012/04/04/measuring-site-speed-with-navigation-timing/
