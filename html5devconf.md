@@ -15,7 +15,7 @@ Modernizr is a feature detection engine that allows both feature detection and m
 
 The objective is not for all the browsers to render content the same way. But to display the content the best way a browser can. 
 
-= Video on the web:
+#Video on the web:
 
 * Most of it can be scripted, either directly, via canvas or SVG
 * Event demo @ w3c: http://www.w3.org/2010/05/video/mediaevents.html
