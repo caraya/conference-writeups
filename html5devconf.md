@@ -18,6 +18,9 @@ The objective is not for all the browsers to render content the same way. But to
 #Video on the web:
 
 ##Full Presentation
+* http://www.w3.org/2013/Talks/0401-web-video/
+
+###Imporant Information
 * Most of it can be scripted, either directly, via canvas or SVG
 * Event demo @ w3c: http://www.w3.org/2010/05/video/mediaevents.html
 
