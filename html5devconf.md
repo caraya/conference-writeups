@@ -69,7 +69,7 @@ http://www.webrtc.org/
 
 	* What video codec? 
 	* Mozilla and Chrome support the feature but not the same codecs
-
+ 
 ===Client-side latency mesaurements
 https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html
 http://www.w3.org/TR/resource-timing/
