@@ -79,3 +79,12 @@ http://www.webrtc.org/
 * http://www.w3.org/TR/resource-timing/
 * http://www.igvita.com/2012/04/04/measuring-site-speed-with-navigation-timing/
 
+#Responsive web design -- Take your app offline
+
+* Offline is now possible with HTML5
+* Way more than online web applications
+* What do we do without Internet connection
+** Flying? (I've been asked this about the current LMS @ work)
+** Outside cell tower range
+* MVC architecture
+
