@@ -10,6 +10,7 @@ Even though it is a captive audience they'll still turn away from your content. 
 * http://stevesouders.com/docs/html5devconf-howfast-20130401.pptx for the keynore presentation: "How fast is the web"
 
 #Modernizr
+http://alexsexton.com/talks/modernizr-3-workflow/
 
 Modernizr is a feature detection engine that allows both feature detection and modular development. We can create support tiers depending on the features the browsers support and then work with that tier only (we don't add features that a browser can't support and we code all the features that we need and only those we need)
 
@@ -80,6 +81,7 @@ http://www.webrtc.org/
 * http://www.igvita.com/2012/04/04/measuring-site-speed-with-navigation-timing/
 
 #Responsive web design -- Take your app offline
+http://pouchdb.com/api.html
 
 * Offline is now possible with HTML5
 * Way more than online web applications
@@ -87,4 +89,11 @@ http://www.webrtc.org/
 ** Flying? (I've been asked this about the current LMS @ work)
 ** Outside cell tower range
 * MVC architecture
+* local storage (local storage or indexdb support) then transfer to the server when the device is online
 
+Any worth to what we're trying to do @ work? I know it hs value for my personal research project. 
+
+#JS the Really bad parts
+http://johnkpaul.com/2013/html5devconf/
+
+Hard to understand concepts. Things that can't be explained easily
